@@ -24,24 +24,40 @@ nav{
     grid-template-columns: 1fr auto;
     align-items: center;
     background: aliceblue;
-    font-family: sans-serif;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
     position:fixed;
     top:0;
     width:100%;
     }
-    nav .logo{
-    font-size: 24px;
-    font-weight:black;
+nav .logo{
+    height: 20px;
     }
-    nav .barnav{
+nav .logo img {
+    height: 30px;
+
+    }
+nav .barnav{
     display:grid;
     grid-template-columns: repeat(4,auto);
     margin-right: 30px;
     }
-    nav .barnav div{
+nav .barnav div{
     padding: 10px 20px;
     }
-    nav .barnav div:hover{
+nav .barnav div:hover{
     cursor: pointer;
     background:#CDDC39;
     }
+
+.patita {
+    display: inline-block;
+    height: 30px;
+    }
+
+p {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+}
+
+   
