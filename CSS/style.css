@@ -3,18 +3,45 @@ h1 {
     font-family:'Patrick Hand SC', cursive;
     font-size: 50px;
 }
-
+/**
 .anav {
+
     box-sizing: border-box;
     text-decoration:none;
-    
     font-family: 'Dongle', sans-serif;
     font-size: 25px;
     color: black;
     background-color: yellowgreen;
     border-radius: 5px;
     padding: 6px 2px 6px 2px;
-    margin: 10px;
+    margin: 20px;
     display: inline-block;
-   
+       
 }
+**/
+nav{
+    display:grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background: aliceblue;
+    font-family: sans-serif;
+    position:fixed;
+    top:0;
+    width:100%;
+    }
+    nav .logo{
+    font-size: 24px;
+    font-weight:black;
+    }
+    nav .barnav{
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    margin-right: 30px;
+    }
+    nav .barnav div{
+    padding: 10px 20px;
+    }
+    nav .barnav div:hover{
+    cursor: pointer;
+    background:#CDDC39;
+    }
