@@ -3,61 +3,53 @@ h1 {
     font-family:'Patrick Hand SC', cursive;
     font-size: 50px;
 }
-/**
-.anav {
 
-    box-sizing: border-box;
-    text-decoration:none;
+nav, .barnav .nav-link {
     font-family: 'Dongle', sans-serif;
     font-size: 25px;
     color: black;
-    background-color: yellowgreen;
-    border-radius: 5px;
-    padding: 6px 2px 6px 2px;
-    margin: 20px;
-    display: inline-block;
-       
+    text-decoration: none;
 }
-**/
+
 nav{
     display:grid;
     grid-template-columns: 1fr auto;
     align-items: center;
     background: aliceblue;
-    font-family: 'Dongle', sans-serif;
-    font-size: 25px;
     position:fixed;
     top:0;
     width:100%;
-    }
+}
+
 nav .logo{
     height: 20px;
-    }
+}
+
 nav .logo img {
     height: 30px;
+}
 
-    }
-nav .barnav{
+nav .barnav .nav{
     display:grid;
     grid-template-columns: repeat(4,auto);
     margin-right: 30px;
-    }
-nav .barnav div{
+}
+
+nav .barnav .nav-link{
     padding: 10px 20px;
-    }
-nav .barnav div:hover{
+}
+
+nav .barnav .nav-link:hover{
     cursor: pointer;
     background:#CDDC39;
-    }
+}
 
 .patita {
     display: inline-block;
     height: 30px;
-    }
+}
 
 p {
     font-family: 'Patrick Hand', cursive;
     font-size: 30px;
 }
-
-   
