@@ -1,7 +1,15 @@
+/*esto saca los margenes que se colocan por defecto  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1 {
     text-align: center;
     font-family:'Patrick Hand SC', cursive;
     font-size: 50px;
+    padding: 10px;
 }
 
 nav, .barnav .nav-link {
@@ -52,4 +60,60 @@ nav .barnav .nav-link:hover{
 p {
     font-family: 'Patrick Hand', cursive;
     font-size: 30px;
+    
+} 
+
+span{
+    font-size: 25px;
 }
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.fb, .tw , .inst, .tk{
+    background: white;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px;
+    align-items: normal;
+    background:rgba(223, 199, 135, 0.952); /*para tonos marrones*/
+    /*background:gray; */
+    
+}
+
+.mail, .tel, .dir{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(37, 31, 31); /*para tonos marrones*/
+    /*color: rgb(185, 173, 173); */
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    background:rgb(99, 60, 10); /*para tonos marrones*/
+    /*background:grey; */
+    padding-top: 20px;
+    padding-block-end: 20px; 
+    
+    
+}
+
+div b{
+    color: white;
+    text-decoration: underline;
+    padding-right: 7px;
+}
+
+
+
+
+
+
+
