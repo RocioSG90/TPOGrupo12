@@ -9,7 +9,7 @@ h1 {
     text-align: center;
     font-family:'Patrick Hand SC', cursive;
     font-size: 50px;
-    padding: 10px;
+    padding: 30px;
 }
 
 nav, .barnav .nav-link {
@@ -66,10 +66,19 @@ p {
 span{
     font-size: 25px;
 }
+    
 body{
-    display: grid;
+    /*display: grid;
     min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+}
+
+footer{
+    margin-top: auto;
 }
 
 .fb, .tw , .inst, .wtp{
@@ -109,6 +118,20 @@ div b{
     color: white;
     text-decoration: underline;
     padding-right: 7px;
+}
+
+main form{
+    width: 50%;
+    margin: 0 auto; /* Esto centrará el contenedor horizontalmente */
+    background-color: burlywood;
+}
+
+main p{
+    font-family: 'Dongle', sans-serif;
+    font-size: 20px;
+}
+main iframe{
+    padding-bottom: 20px;
 }
 
 
