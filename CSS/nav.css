@@ -9,12 +9,13 @@ nav, .barnav .nav-link {
   }
   
   nav {
+    background:#E6B771;
     height: auto;
     display: grid;
     left: 0;
     grid-template-columns: 1fr auto;
     align-items: center;
-    background: aliceblue;
+
     position: fixed;
     top: 0;
     width: 100%;
@@ -37,8 +38,9 @@ nav, .barnav .nav-link {
   }
   
   nav .barnav .nav-link:hover {
+    background:#846745;
+    color: white;
     cursor: pointer;
-    background: rgb(205, 220, 57);
     transition: .5s ease;
   }
   
