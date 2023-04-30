@@ -72,3 +72,23 @@ p {
     padding-top: 25px;
 
 }
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.columna-2 p {
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 25%;
+    
+}
+
+.gatitomenu{
+    border-radius: 50%;
+    padding: 50px, 50px, 50px, 50px;
+}
