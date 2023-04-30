@@ -6,23 +6,23 @@ h1 {
 
 nav, .barnav .nav-link {
     font-family: 'Dongle', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: black;
     text-decoration: none;
 }
 
 nav{
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
-    background: aliceblue;
-    position:fixed;
-    top:0;
-    width:100%;
+    background:#E6B771;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav .logo{
-    height: 20px;
+    height: 30px;
 }
 
 nav .logo img {
@@ -36,20 +36,39 @@ nav .barnav .nav{
 }
 
 nav .barnav .nav-link{
-    padding: 10px 20px;
+    padding: 20px 30px;
 }
 
 nav .barnav .nav-link:hover{
     cursor: pointer;
-    background:#CDDC39;
-}
-
-.patita {
-    display: inline-block;
-    height: 30px;
+    background:#846745;
+    color: white;
 }
 
 p {
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+}
+
+.bannertexto {
+    background-image: url(../IMAGENES/dueno-acariciando-adorable-gato.jpg);
+    background-size: cover;
+   opacity: 0.8;   
+}
+
+.bannertexto, p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center; 
+    font-weight: 900;
+    padding-bottom: 5px;
+
+}
+
+.logoindex {
+    height: 250px;
+    margin: 10px;
+    padding-top: 25px;
+
 }
