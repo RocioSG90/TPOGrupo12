@@ -5,7 +5,7 @@ nav, .barnav .nav-link {
     font-size: 25px;
     color: black;
     text-decoration: none;
-    z-index: 1; /*puse el valor en 1 para que no se ponga en el fondo cuando se scrollea, sino la galeria se superpone encima*/
+    z-index: 2; /*puse el valor en 2 para que no se ponga en el fondo cuando se scrollea, sino la galeria se superpone encima*/
   }
   
   nav {

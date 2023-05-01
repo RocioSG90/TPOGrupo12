@@ -3,6 +3,7 @@
   flex-wrap: wrap; /* usamos la propiedad wrap para que las fotos se muevan a una nueva linea, con fines esteticos*/
   justify-content:center;/* centramos las imagenes de la galeria*/
   margin: 0;
+  z-index: 1;
 }
 
 .galeria .contenedor-imagen {
