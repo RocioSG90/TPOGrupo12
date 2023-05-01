@@ -1,17 +1,7 @@
-/*esto saca los margenes que se colocan por defecto  */
-*{
-    box-sizing: border-box;
-}
-
 @import url(../CSS/galeria.css);
 @import url(../CSS/nav.css);
 a{
   color: #E6B771;
-}
-
-
-span{
-  font-size: 25px;
 }
 
 
@@ -92,13 +82,6 @@ p {
 span{
     font-size: 25px;
 }
-z    
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;  
-}
-
 footer{
     margin-top: auto;
 }
@@ -276,9 +259,6 @@ body{
     min-height: 100vh;  
 }
 
-footer{
-    margin-top: auto;
-}
 
 .fb, .tw , .inst, .wtp{
     background: white;
