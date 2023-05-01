@@ -52,12 +52,13 @@ div b{
 body {
   position: relative;
   padding-top: 1.5em;
-  background-image: url(../IMAGENES/background.png);
+  background-image: url(../IMAGENES/Logo-fondo/Cafe\ garritas\ fondo_Mesa\ de\ trabajo\ 1.svg);
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
+
 }
 h1 {
   text-align: center;
@@ -440,4 +441,46 @@ form p{
 
 #horarios{
   justify-content: left;
+}
+.bannertexto {
+    background-image: url(../IMAGENES/dueno-acariciando-adorable-gato.jpg);
+    background-size: cover;
+   opacity: 0.8;   
+}
+
+.bannertexto, p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center; 
+    font-weight: 900;
+    padding-bottom: 5px;
+
+}
+
+.logoindex {
+    height: 250px;
+    margin: 10px;
+    padding-top: 25px;
+
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.columna-2 p {
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 25%;
+    
+}
+
+.gatitomenu{
+    border-radius: 50%;
+    padding: 50px, 50px, 50px, 50px;
 }
