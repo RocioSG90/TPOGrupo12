@@ -78,16 +78,13 @@ h1 {
 }
 
 
-.patita {
-  display: inline-block;
-  height: 30px;
-}
 
 p {
-  font-family: "Patrick Hand", cursive;
-  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
     
 } 
+
 
 /*estilo footer*/
 span{
@@ -452,6 +449,8 @@ form p{
 #horarios{
   justify-content: left;
 }
+
+/**ESTILO DEL BODY INDEX**/
 .bannertexto {
     position: relative;
 }
@@ -492,25 +491,27 @@ form p{
 .menu {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 
 .columna-1 {
-    padding-left: 15%;
-
-}
+    float: left;
+   }
 
 .gatitomenu{
-    height: 600px;
+    width: 100%;
     /**border-radius: 150px;**/
  }
 
 .columna-2 p {
+    float: right;
+    /*width: 50% ; */
     color:black;
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     text-align: center;
     font-weight: 100;
-    padding-top: 15%;
+    padding: 25%, 25%, 25%, 25%;
     
 }
 
@@ -543,13 +544,14 @@ form p{
     height: auto;
 }
 
-.contenedortexto{
+.contenedortexto p {
+    font-family: 'Monteserrat', sans-serif;
     position: absolute;
     top: 50%;
     left: 70%;
     transform: translate(-50%, -50%);
     color: #846745;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 900;
     text-align: center;
     z-index: 1;
