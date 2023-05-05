@@ -104,6 +104,7 @@ p {
 }
 
 .menu {
+    padding-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -136,6 +137,7 @@ p {
 }
 
 .rescate {
+    padding-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -163,6 +165,7 @@ p {
 }
 
 .locales {
+    padding-top:10px;
     position: relative;
 }
 
