@@ -52,6 +52,14 @@ nav .barnav .nav-link:hover{
     color: white;
 }
 
+.contenedorgrande{ /**contenedor del index**/
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+  
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -59,6 +67,7 @@ p {
 
 .bannertexto {
     position: relative;
+    overflow: hidden;
 }
 
 .fotoarriba{
@@ -74,7 +83,7 @@ p {
     left: 50%; 
     transform: translate(-50%, -3%);
     color: white; 
-    font-size: 35px;
+    font-size: 80%;
     text-align: center;
     font-weight: 900;
 }
@@ -89,7 +98,7 @@ p {
 }**/
 .logoindex {
     position: absolute;
-    height: 250px;
+    height: 50%;
     transform: translate(-50%, +10%);
 
 }
@@ -99,20 +108,27 @@ p {
     grid-template-columns: 1fr 1fr;
 }
 
-.columna-1 {
-    padding-left: 15%;
 
-}
 
 .gatitomenu{
     height: 600px;
     /**border-radius: 150px;**/
  }
 
+/*.columna-1 {
+    float: left;
+    width: 50%;
+  }
+  
+.columna-2 {
+    float: right;
+    width: 50%;
+  }*/
+
 .columna-2 p {
     color:black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 180%;
     text-align: center;
     font-weight: 100;
     padding-top: 15%;
@@ -123,15 +139,23 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 .columna-3 p {
+   /* float: left;
+    width: 50%; */
+    /*overflow: hidden;*/
     color:black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 180%;
     text-align: center;
     font-weight: 100;
-    padding-top: 10%;
+    /*padding-top: 10%;*/
 }
+  
+/*.columna-4 {
+    float: right;
+    width: 50%;
+  }*/
+
 
 .gatitorescatado {
     width: 100%;
@@ -148,13 +172,13 @@ p {
     height: auto;
 }
 
-.contenedortexto{
+.contenedortexto p{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 70%;
     transform: translate(-50%, -50%);
     color: #846745;
-    font-size: 35px;
+    font-size: 140%;
     font-weight: 900;
     text-align: center;
     z-index: 1;
