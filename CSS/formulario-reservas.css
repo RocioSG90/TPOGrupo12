@@ -62,6 +62,7 @@ div b{
 .formulario form input,
 .formulario form textarea{
     width: 100%;
+    font-family: 'Montserrat', sans-serif;
     padding: .7em;
     border: none;
     background: none;
