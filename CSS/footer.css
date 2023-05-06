@@ -1,0 +1,65 @@
+
+
+.footer-pie{
+    margin: 0;
+    padding: 0;
+}
+
+/*botones de redes*/
+
+.main-redes{
+    background: #E6B771;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+}
+
+.main-redes a{
+    background-color: white;
+    color: #E6B771;
+    font-size: 30px;
+    border-radius: 40px;
+    padding: 10px;
+    
+}   
+
+.main-redes a:hover{
+    background:#846745;
+    color: white;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+/*datos del cafe*/
+
+.main-datos{
+    width: 100%;
+    background: #AC8A5F;
+    color: antiquewhite;
+    margin: auto;
+    padding: 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-columna{
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+h4{
+    color: #E6B771;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*copy*/
+
+.footer-copy{
+    width: 100%;
+    background-color: #846745;
+    padding: 5px;
+    text-align: center;
+}

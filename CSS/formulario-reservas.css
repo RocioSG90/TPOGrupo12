@@ -4,11 +4,9 @@ div b{
     text-decoration: underline;
     padding-right: 7px;
 }
-/* estilo de formulario */
 
 .conteiner{
     background-color: burlywood; /*momentaneo, despues sacarlo*/
-    font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     padding: 0 1.5em;
     max-width: 1170px;
@@ -16,14 +14,15 @@ div b{
     margin-right: auto;
     padding: 1.5em;
 }
-
-form p{
-    font-family: 'Quicksand', sans-serif;
+/*no me estaria funcionando el estilo de letra que habia elegido*/
+.formulario p{
+    
     font-size: 18px; 
+    color: black;
 }
 
-.info p{
-    font-family: 'Quicksand', sans-serif;
+.info, li, p{
+    
     font-size: 18px;
 }
 .wrapper{
@@ -77,6 +76,10 @@ form p{
     color: white;
     transition: background-color 1s ease-out;
     outline: none;
+}
+
+.formulario form b{
+    text-decoration: none;
 }
 
 .info{
