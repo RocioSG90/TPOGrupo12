@@ -1,0 +1,18 @@
+/*estilo locales*/
+.locales p{
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    text-align: left;
+}
+
+.locales h3{
+  font-family:'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  text-align: left;
+}
+.locales iframe{
+    padding-bottom: 20px;
+}
