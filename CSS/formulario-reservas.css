@@ -6,7 +6,6 @@ div b{
 }
 
 .conteiner{
-    background-color: burlywood; /*momentaneo, despues sacarlo*/
     font-size: 18px;
     padding: 0 1.5em;
     max-width: 1170px;
@@ -26,7 +25,7 @@ div b{
     font-size: 18px;
 }
 .wrapper{
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .5);
+    box-shadow: 0 0 20px 0 #846745;
 }
 
 .wrapper > *{
@@ -35,7 +34,7 @@ div b{
 }
 
 .formulario{
-    background-color: bisque ;
+    background-color: #f7daaf ;
 }
 
 .formulario form{
@@ -84,6 +83,7 @@ div b{
     color: white;
     transition: background-color 1s ease-out;
     outline: none;
+    font-size: medium;
 }
 
 .formulario form b{
@@ -92,7 +92,7 @@ div b{
 }
 
 .info{
-    background-color: rgb(204, 134, 43);
+    background-color: #AC8A5F;
 }
 
 .info h4,
