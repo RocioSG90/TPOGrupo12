@@ -117,6 +117,10 @@ div b{
     padding: .3em;
 }
 
+.info ul i{
+    margin-right: 7px;
+}
+
 .info p{
     font-weight: 600;
 }
