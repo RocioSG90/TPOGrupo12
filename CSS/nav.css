@@ -25,7 +25,7 @@ nav, .barnav .nav-link {
   
   nav .logo img {
     height: 50px;
-
+    margin-left: 10px;
   }
   
   nav .barnav .nav {
