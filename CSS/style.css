@@ -6,117 +6,19 @@
 @import url(../CSS/locales.css);
 
 
-div b{
-  color: white;
-  text-decoration: underline;
-  padding-right: 7px;
-}
-
-
-
-
-
-.header{
-  display: flex;
-  justify-content:space-evenly;
-  padding: 20px;
-  align-items: normal;
-  /*background:rgba(223, 199, 135, 0.952); /*para tonos marrones*/
-  /*background:gray; */ /*para tonos grises*/
-  
-}
-
-body {
-  position: relative;
-  padding-top: 1.5em;
-  background-image: url(../IMAGENES/Logo-fondo/Cafe\ garritas\ fondo_Mesa\ de\ trabajo\ 1.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
-
-}
 
 body {
     background-image: url(../IMAGENES/Logoyfondo/Cafe\ garritas\ fondo_Mesa\ de\ trabajo\ 1.svg) ;
     background-size: cover;
     background-position: center center;
     background-repeat: repeat;
+    z-index: 0;
 }
-
 
 h1 {
-  text-align: center;
-  font-family: "Patrick Hand SC", cursive;
-  font-family: "Patrick Hand", cursive;
-  font-size: 50px;
-}
-
-
-
-.contenedorgrande{ /**contenedor del index**/
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px;
-    overflow: hidden;
-  
-}
-
-p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 35px;
-    
-} 
-
-
-
-/*estilo footer*/
-span{
-    font-size: 25px;
-}
-footer{
-    margin-top: auto;
-}
-
-.fb, .tw , .inst, .wtp{
-    background: white;
-    padding: 10px;
-    border-radius: 30px;
-    
-}
-
-.header{
-    display: flex;
-    justify-content:space-evenly;
-    padding: 20px;
-    align-items: normal;
-    background:rgba(223, 199, 135, 0.952); /*para tonos marrones*/
-    /*background:gray; */ /*para tonos grises*/
-    
-}
-
-.mail, .tel, .dir{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    color: rgb(37, 31, 31); /*para tonos marrones*/
-    /*color: rgb(185, 173, 173); */ /*para tonos grises*/
-    text-decoration: none;
-    display:flex;
-    justify-content: center;
-    background:rgb(99, 60, 10); /*para tonos marrones*/
-    /*background:grey; */ /*para tonos grises*/
-    padding-top: 20px;
-    padding-block-end: 20px; 
-    
-    
-}
-
-
-div b{
-    color: white;
-    text-decoration: underline;
-    padding-right: 7px;
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
+    margin-top: 80px;
 }
 
 .contenedorgrande{ /**contenedor del index**/
@@ -129,7 +31,8 @@ div b{
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 120%;
 }
 
 /**ESTILO DEL BODY INDEX**/
@@ -147,7 +50,7 @@ p {
 
 .textoarriba{
     position: absolute; 
-    top: 60%; 
+    top: 70%; 
     left: 50%; 
     transform: translate(-50%, -3%);
     color: white; 
@@ -155,20 +58,10 @@ p {
     text-align: center;
     font-weight: 900;
 }
-/**.bannertexto, p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
-    color: white;
-    text-align: center; 
-    font-weight: 900;
-    padding-bottom: 5px;
-
-}**/
 .logoindex {
     position: absolute;
     height: 50%;
     transform: translate(-50%, +10%);
-
 }
 
 .menu {
@@ -177,7 +70,6 @@ p {
     grid-template-columns: 1fr 1fr;
     
 }
-
 
 .gatitomenu{
     width: 100%;
