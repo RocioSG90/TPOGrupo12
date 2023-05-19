@@ -33,14 +33,14 @@
         <div class="wrapper">
             <div class="formulario">
                 <h3>Contactanos</h3>
-                <form id="form" action="">
+                <form id="formularioReservas" action="mailto:holarociodisenia@gmail.com">
                     <p>
                         <label for="nombrecompleto">Nombre completo</label>
-                        <input type="text" name="nombrecompleto" id="nombrecompleto" placeholder="Ingrese su nombre y apellido">
+                        <input type="text" name="nombrecompleto" id="nombreCompleto" placeholder="Ingrese su nombre y apellido">
                     </p>
                     <p>
                         <label for="direcciondecorreo">Direccion de correo</label>
-                        <input type="email" name="direcciondecorreo" id="direcciondecorreo" placeholder="Ingrese su correo">
+                        <input type="email" name="direcciondecorreo" id="direccionDeCorreo" placeholder="Ingrese su correo">
                     </p>
                    
                     <p>
@@ -69,7 +69,7 @@
                         </button>
                     </p>
                 </form>
-                <a href="mailto:holarociodisenia@gmail.com" id="inforeserva">mail</a>
+                <!--<a href="mailto:holarociodisenia@gmail.com" id="inforeserva">mail</a> -->
             </div>
             <div class="info">
                 <h4>Más información</h4>
@@ -141,7 +141,7 @@
 
 <!--<script type="text/javascript" src="../JS/formulario.js"></script>-->
 
-<script>
+<!-- 
     const $form = document.querySelector('#form')
     const $buttonMailto = document.querySelector('#inforeserva')
 
@@ -153,7 +153,42 @@
         //console.log(form.get('nombrecompleto'))
         $buttonMailto.setAttribute('href', `mailto:holarociodisenia@gmail.com?subject= ${form.get('nombrecompleto')} ${form.get('direcciondecorreo')}&body= ${form.get('peticion')}`)
         $buttonMailto.click()
-    }
+    } -->
+<script>
+    document.getElementById('formularioReservas').addEventListener('submit', function(event) {
+      event.preventDefault(); // Evita el envío automático del formulario
+      
+      var nombre = document.getElementById('nombreCompleto').value;
+      var correo = document.getElementById('direccionDeCorreo').value;
+      
+      // Realiza las validaciones necesarias
+      if (nombre === '') {
+            alert('Por favor, ingrese su nombre completo!');
+            return false;
+      }
+      
+      if (correo === '') {
+            alert('Por favor, ingrese su correo electrónico!');
+            return false;
+      }
+      
+      // Envía el formulario por correo electrónico
+      enviarCorreo(nombre, correo);
+      });
+      
+      function enviarCorreo(nombre, correo) {
+      //redireccionamos a una nueva página con los datos del formulario
+      
+      // Crea URL de correo electrónico con los parámetros
+      var url = 'mailto:holarociodisenia@gmail.com'
+            + '?subject=Reserva en el Café'
+            + '&body=Nombre completo: ' + encodeURIComponent(nombre) + '%0D%0A'
+            + 'Correo electrónico: ' + encodeURIComponent(correo);
+      
+      // Abre la URL en una nueva ventana o pestaña
+      window.open(url, '_blank');
+      return false;
+      }
 </script>
 </body>
 
