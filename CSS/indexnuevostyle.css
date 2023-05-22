@@ -1,0 +1,137 @@
+@import url(../CSS/galeria.css);
+@import url(../CSS/nav.css);
+@import url(../CSS/formulario-reservas.css);
+@import url(../CSS/footer.css);
+@import url(../CSS/locales.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(../IMAGENES/Logoyfondo/Cafe\ garritas\ fondo_Mesa\ de\ trabajo\ 1.svg) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    z-index: 0;
+}
+
+.contenedorgrande{ /**contenedor del index**/
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+  
+}
+
+div .banner1 .banner2 {
+    height: 70vh;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+    }
+
+section .infoindex{
+    
+    width: 800px;
+    margin: 0px, 20px;
+           
+    }
+
+.infoindex p{
+    font-family: 'Patrick Hand', cursive;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+.gato1{
+    height: 50vh;
+    position: relative;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.logoinicio {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    height: 200px;
+    top: 5rem;
+    left: 53rem;
+}
+
+div h1 {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    z-index: 3;
+    
+    
+}
+
+section img {
+    width: 600px;
+    margin: 0 0px; 
+}
+
+.gato4{
+    height: 50vh;
+    position: relative;
+    z-index: 1;
+}
+
+div .info4 {
+    display: flex;
+    position: absolute;
+    top: 155%;
+    left: 70%;
+    transform: translate(-50%, 50%);
+    color: #846745;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    z-index: 3;
+}
+/**ESTILOS PARA EL SCRIPT**/ 
+.gato2 {
+    position: relative;
+    left:-50px;
+    opacity: 0;
+}
+
+.efecto-gato2 {
+    left: 0px;
+    opacity: 1;
+    transition: 1s linear;
+}
+
+.gato3 {
+    transform: scale(0.5);
+    opacity: 0;
+}
+
+.efecto-gato3 {
+    transform: scale(1);
+    opacity: 1;
+    transition: 1s linear;
+}
