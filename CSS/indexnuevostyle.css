@@ -1,8 +1,6 @@
-@import url(../CSS/galeria.css);
+
 @import url(../CSS/nav.css);
-@import url(../CSS/formulario-reservas.css);
 @import url(../CSS/footer.css);
-@import url(../CSS/locales.css);
 
 *{
     margin: 0;
@@ -111,7 +109,7 @@ div .info4 {
     left: 70%;
     transform: translate(-50%, 50%);
     color: #846745;
-    font-size: 80px;
+    font-size: 20px;
     font-weight: 900;
     text-align: center;
     z-index: 3;
