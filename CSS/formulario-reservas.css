@@ -149,3 +149,9 @@ div b{
 
 }
 
+.mensaje-error{
+    font-size: 15px;
+    color: red;
+    font-family: inherit;
+    font-weight: 200;
+}

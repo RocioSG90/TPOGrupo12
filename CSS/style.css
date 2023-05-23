@@ -148,3 +148,8 @@ p {
     text-align: center;
     z-index: 1;
 }
+
+#menu{
+    text-decoration: none;
+    color: #e6b771;
+}
