@@ -1,13 +1,11 @@
 
+@import url(../CSS/galeria.css);
 @import url(../CSS/nav.css);
+@import url(../CSS/formulario-reservas.css);
 @import url(../CSS/footer.css);
+@import url(../CSS/locales.css);
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}
+
 
 body {
     background-image: url(../IMAGENES/Logoyfondo/Cafe\ garritas\ fondo_Mesa\ de\ trabajo\ 1.svg) ;
@@ -26,6 +24,7 @@ body {
 }
 
 div .banner1 .banner2 {
+    
     height: 70vh;
     font-size: 30px;
     display: flex;
@@ -78,6 +77,7 @@ div .infoindex p a {
 }
 
 div h1 {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     position: absolute;
     top: 50%;
@@ -103,9 +103,10 @@ section img {
 }
 
 div .info4 {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     position: absolute;
-    top: 155%;
+    top: 150%;
     left: 70%;
     transform: translate(-50%, 50%);
     color: #846745;
